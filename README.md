@@ -1,5 +1,3 @@
-# cehaticaret
-CeHa hazır e-ticaret yazılımının tanıtımı. 100 ürüne kadar ücretsiz katalog; demo ve paketler cehaticaret.com.tr adresindedir. Kaynak kod bu depoda yoktur.
 # CeHa Ticaret | E-Ticaret Yazılımı
 
 **Ürünlerinizi, siparişlerinizi, müşterilerinizi ve mağaza operasyonlarınızı tek yönetim panelinden takip edin.**
@@ -10,7 +8,20 @@ CeHa Ticaret; kendi internet mağazasını kurmak, çevrim içi satışlarını 
 
 > Bu sayfa ürün tanıtımı içindir. Aşağıdaki kapsam, 19 Kasım 2026 tarihli panel ve vitrin özellik envanterine dayanır. Özelliklerin kullanılabilirliği seçilen pakete ve gerekli servis bağlantılarına bağlıdır. Güncel paket kapsamı ve fiyatlar için paketler sayfasını inceleyin.
 
+## Bir bakışta CeHa Ticaret
+
+| İhtiyaç | Yazılımın sunduğu araçlar |
+| --- | --- |
+| Ürünleri satışa hazırlamak | Katalog, varyant, kategori, marka, görsel, video ve toplu güncelleme. |
+| Satışı yönetmek | Sepet, ödeme seçenekleri, sipariş takibi, paket masası, kargo ve iade işlemleri. |
+| Farklı kanallarda çalışmak | Kanal bazında pazaryeri bağlantıları, ürün beslemeleri ve açık API. |
+| Fiziksel operasyonu izlemek | Çoklu depo ve mağaza stoğu, transfer, stok hareketleri, satın alma ve sayım. |
+| Bayilere satış yapmak | Bayi fiyatı, iskonto, cari hesap, vade, limit ve teklif yönetimi. |
+| Müşteriyle iletişim kurmak | Kampanyalar, kuponlar, WhatsApp şablonları, e-posta, SMS ve canlı destek. |
+
 ## İçindekiler
+
+- [Ekran görüntüleri — 81 ekran](#ekran-goruntuleri)
 
 - [Kimler için?](#kimler-icin)
 - [Yönetim paneli ve raporlama](#yonetim-paneli)
@@ -140,7 +151,7 @@ Kargo API ayarlarında **Yurtiçi Kargo, DHL Kargo, Aras Kargo, HepsiJET, Trendy
 
 Pazaryeri ekranı stok, fiyat ve sipariş işlemlerini kanal bazında takip etmeyi sağlar. Her kanalın kapsamı aynı değildir:
 
-| Kanal | Envanterde belirtilen kapsam |
+| Kanal | Bağlantı kapsamı |
 | --- | --- |
 | Trendyol | Stok, fiyat, sipariş, takip numarası ve fatura bağlantısı işlemleri. |
 | Hepsiburada | Stok, fiyat ve sipariş işlemleri. |
@@ -274,6 +285,408 @@ Demo ortamı, sistemi tanımayı kolaylaştıran araçlar içerir:
 - **Çarkıfelek yalnızca demo adresine özgüdür; satın alınan mağazada sunulan özellikler arasında değildir.**
 - Filigran, 360° ürün gösterimi ve Google Ads dönüşüm özelliği mevcut demo kataloğunda kapalıdır.
 - Bir bağlantı ekranının görünmesi, dış servisle canlı işlemin tamamlandığını göstermez. Kargo, ödeme, e-fatura, mesajlaşma ve pazaryeri işlemleri gerekli hesap ve bağlantı bilgilerini gerektirir.
+
+<a id="ekran-goruntuleri"></a>
+## Ekran görüntüleri
+
+Mağaza vitrininden **22**, yönetim panelinden **59** olmak üzere toplam **81 ekran görüntüsü** aşağıda yer alır. İlgilendiğiniz başlığa tıklayarak ekranları açabilirsiniz. Görseller 19 Kasım 2026 tarihli demo ortamına aittir.
+
+> Demo ekranında bir modülün görünmesi, bu modülün her pakette bulunduğu veya dış servis bağlantısının etkin olduğu anlamına gelmez. Müşteri bilgileri içeren alanlar görsellerde bulanıklaştırılmıştır.
+
+<details>
+<summary><strong>Mağaza vitrini ve alışveriş — 9 ekran</strong></summary>
+
+### Ana sayfa
+
+![CeHa Ticaret — Ana sayfa](vitrin/01-ana-sayfa.jpg)
+
+### Kategori
+
+![CeHa Ticaret — Kategori](vitrin/02-kategori.jpg)
+
+### Ürün sayfası
+
+![CeHa Ticaret — Ürün sayfası](vitrin/03-urun.jpg)
+
+### Canlı arama
+
+![CeHa Ticaret — Canlı arama](vitrin/04-arama.jpg)
+
+### Sepet
+
+![CeHa Ticaret — Sepet](vitrin/05-sepet.jpg)
+
+### Ödeme akışına erişim
+
+Bu çekimde ödeme akışına erişilen sepet sayfası görüntülenmiştir.
+
+![CeHa Ticaret — Ödeme akışına erişim](vitrin/06-odeme.jpg)
+
+### Favorilere erişim
+
+Favorilere erişim müşteri girişi gerektirdiği için bu çekimde giriş sayfası görüntülenmiştir.
+
+![CeHa Ticaret — Favorilere erişim](vitrin/07-favoriler.jpg)
+
+### Karşılaştırma
+
+![CeHa Ticaret — Karşılaştırma](vitrin/08-karsilastirma.jpg)
+
+### Kampanyalar
+
+![CeHa Ticaret — Kampanyalar](vitrin/22-kampanyalar.jpg)
+
+</details>
+
+<details>
+<summary><strong>Müşteri hesabı ve bilgilendirme — 10 ekran</strong></summary>
+
+### Giriş
+
+![CeHa Ticaret — Giriş](vitrin/09-giris.jpg)
+
+### Kayıt
+
+![CeHa Ticaret — Kayıt](vitrin/10-kayit.jpg)
+
+### Hesabım alanına erişim
+
+Hesap alanına erişim müşteri girişi gerektirdiği için bu çekimde giriş sayfası görüntülenmiştir.
+
+![CeHa Ticaret — Hesabım alanına erişim](vitrin/11-hesabim.jpg)
+
+### Kargo takip
+
+![CeHa Ticaret — Kargo takip](vitrin/12-kargo-takip.jpg)
+
+### İletişim
+
+![CeHa Ticaret — İletişim](vitrin/13-iletisim.jpg)
+
+### Kampanya e-postası
+
+![CeHa Ticaret — Kampanya e-postası](vitrin/14-bulten.jpg)
+
+### Sıkça sorulan sorular
+
+![CeHa Ticaret — Sıkça sorulan sorular](vitrin/15-sss.jpg)
+
+### Kargo ve teslimat
+
+![CeHa Ticaret — Kargo ve teslimat](vitrin/16-kargo-sayfasi.jpg)
+
+### İade ve değişim koşulları
+
+![CeHa Ticaret — İade ve değişim koşulları](vitrin/17-iade-sayfasi.jpg)
+
+### Güvenli ödeme
+
+![CeHa Ticaret — Güvenli ödeme](vitrin/18-guvenli-odeme.jpg)
+
+</details>
+
+<details>
+<summary><strong>Kontrol, raporlama ve yapay zekâ — 4 ekran</strong></summary>
+
+### Kontrol ekranı
+
+![CeHa Ticaret — Kontrol ekranı](yonetim/01-kontrol-ekrani.jpg)
+
+### Yapay zeka yönetimi
+
+![CeHa Ticaret — Yapay zeka yönetimi](yonetim/02-yapay-zeka.jpg)
+
+### Raporlar ve grafikler
+
+![CeHa Ticaret — Raporlar ve grafikler](yonetim/03-raporlar.jpg)
+
+### Ziyaretçi analiz
+
+![CeHa Ticaret — Ziyaretçi analiz](yonetim/04-ziyaretci.jpg)
+
+</details>
+
+<details>
+<summary><strong>Sipariş, kargo ve iadeler — 6 ekran</strong></summary>
+
+### Siparişler
+
+![CeHa Ticaret — Siparişler](yonetim/05-siparisler.jpg)
+
+### Paket masası
+
+![CeHa Ticaret — Paket masası](yonetim/06-paket-masasi.jpg)
+
+### Kargo API
+
+![CeHa Ticaret — Kargo API](yonetim/07-kargo-api.jpg)
+
+### Kargo tarifesi
+
+![CeHa Ticaret — Kargo tarifesi](yonetim/08-kargo-tarifesi.jpg)
+
+### Kapıda ödeme mutabakatı
+
+![CeHa Ticaret — Kapıda ödeme mutabakatı](yonetim/09-kapida-odeme.jpg)
+
+### İade ve değişim
+
+![CeHa Ticaret — İade ve değişim](yonetim/13-iade.jpg)
+
+</details>
+
+<details>
+<summary><strong>Müşteri ilişkileri ve kampanyalar — 14 ekran</strong></summary>
+
+### Gelen mesajlar
+
+![CeHa Ticaret — Gelen mesajlar](yonetim/10-gelen-mesajlar.jpg)
+
+### Canlı destek
+
+![CeHa Ticaret — Canlı destek](yonetim/11-canli-destek.jpg)
+
+### İletişim bilgileri
+
+![CeHa Ticaret — İletişim bilgileri](yonetim/12-iletisim-bilgileri.jpg)
+
+### Terk edilen sepetler
+
+![CeHa Ticaret — Terk edilen sepetler](yonetim/14-terk-sepet.jpg)
+
+### Müşteri yönetimi
+
+![CeHa Ticaret — Müşteri yönetimi](yonetim/15-musteriler.jpg)
+
+### Kuponlar ve indirimler
+
+![CeHa Ticaret — Kuponlar ve indirimler](yonetim/16-kuponlar.jpg)
+
+### Kampanya takvimi
+
+![CeHa Ticaret — Kampanya takvimi](yonetim/17-kampanya.jpg)
+
+### Sepet kampanyası
+
+![CeHa Ticaret — Sepet kampanyası](yonetim/18-sepet-kampanyasi.jpg)
+
+### Ürün soru-cevap
+
+![CeHa Ticaret — Ürün soru-cevap](yonetim/20-soru-cevap.jpg)
+
+### Ürün yorumları
+
+![CeHa Ticaret — Ürün yorumları](yonetim/21-yorumlar.jpg)
+
+### Newsletter
+
+![CeHa Ticaret — Newsletter](yonetim/22-bulten.jpg)
+
+### Dil paketi
+
+![CeHa Ticaret — Dil paketi](yonetim/23-dil.jpg)
+
+### WhatsApp otomasyonları
+
+![CeHa Ticaret — WhatsApp otomasyonları](yonetim/24-whatsapp.jpg)
+
+### RFM ve CRM
+
+![CeHa Ticaret — RFM ve CRM](yonetim/50-rfm.jpg)
+
+</details>
+
+<details>
+<summary><strong>Ürün, katalog ve vitrin tasarımı — 14 ekran</strong></summary>
+
+### Ürün listesi
+
+![CeHa Ticaret — Ürün listesi](yonetim/25-urun-listesi.jpg)
+
+### Toplu fiyat ve stok
+
+![CeHa Ticaret — Toplu fiyat ve stok](yonetim/26-toplu-fiyat.jpg)
+
+### Yeni ürün ekle
+
+![CeHa Ticaret — Yeni ürün ekle](yonetim/27-urun-ekle.jpg)
+
+### Ürün sınırı
+
+![CeHa Ticaret — Ürün sınırı](yonetim/28-urun-siniri.jpg)
+
+### Ürün özellikleri
+
+![CeHa Ticaret — Ürün özellikleri](yonetim/29-ozellikler.jpg)
+
+### Kategoriler
+
+![CeHa Ticaret — Kategoriler](yonetim/30-kategoriler.jpg)
+
+### Header menü
+
+![CeHa Ticaret — Header menü](yonetim/31-header-menu.jpg)
+
+### Markalar
+
+![CeHa Ticaret — Markalar](yonetim/32-markalar.jpg)
+
+### Bilgi sayfaları
+
+![CeHa Ticaret — Bilgi sayfaları](yonetim/33-bilgi-sayfalari.jpg)
+
+### Logo, tema ve banner
+
+![CeHa Ticaret — Logo, tema ve banner](yonetim/34-tema.jpg)
+
+### Ürün görsel filigranı
+
+Filigran özelliği mevcut demo kataloğunda kapalıdır; görsel ayar ekranına aittir.
+
+![CeHa Ticaret — Ürün görsel filigranı](yonetim/35-filigran.jpg)
+
+### 360 derece ürün fotoğrafı
+
+360° gösterim mevcut demo kataloğunda kapalıdır; görsel ayar ekranına aittir.
+
+![CeHa Ticaret — 360 derece ürün fotoğrafı](yonetim/36-360.jpg)
+
+### Bakım modu
+
+![CeHa Ticaret — Bakım modu](yonetim/37-bakim.jpg)
+
+### XML ve Excel aktarım
+
+![CeHa Ticaret — XML ve Excel aktarım](yonetim/38-xml-excel.jpg)
+
+</details>
+
+<details>
+<summary><strong>Ödemeler, e-fatura ve pazaryerleri — 5 ekran</strong></summary>
+
+### Ödeme ayarları
+
+![CeHa Ticaret — Ödeme ayarları](yonetim/39-odeme.jpg)
+
+### Taksit tavanı
+
+![CeHa Ticaret — Taksit tavanı](yonetim/40-taksit.jpg)
+
+### e-Fatura firmaları
+
+![CeHa Ticaret — e-Fatura firmaları](yonetim/41-efatura-firmalari.jpg)
+
+### e-Fatura Bizmu
+
+![CeHa Ticaret — e-Fatura Bizmu](yonetim/42-bizmu.jpg)
+
+### Pazaryeri senkron
+
+![CeHa Ticaret — Pazaryeri senkron](yonetim/43-pazaryeri.jpg)
+
+</details>
+
+<details>
+<summary><strong>Depo, operasyon ve B2B — 6 ekran</strong></summary>
+
+### Operasyon merkezi
+
+![CeHa Ticaret — Operasyon merkezi](yonetim/44-operasyon.jpg)
+
+### Uygulama pazarı
+
+![CeHa Ticaret — Uygulama pazarı](yonetim/45-uygulama-pazari.jpg)
+
+### Depo ve mağaza
+
+![CeHa Ticaret — Depo ve mağaza](yonetim/46-depo.jpg)
+
+### Stok hareketleri
+
+![CeHa Ticaret — Stok hareketleri](yonetim/47-stok-hareket.jpg)
+
+### Satın alma ve sayım
+
+![CeHa Ticaret — Satın alma ve sayım](yonetim/48-satin-alma.jpg)
+
+### B2B ve cari
+
+![CeHa Ticaret — B2B ve cari](yonetim/49-b2b.jpg)
+
+</details>
+
+<details>
+<summary><strong>Personel, güvenlik ve sistem ayarları — 9 ekran</strong></summary>
+
+### Personel ve yetkiler
+
+![CeHa Ticaret — Personel ve yetkiler](yonetim/51-personel.jpg)
+
+### İşlem logları
+
+![CeHa Ticaret — İşlem logları](yonetim/52-loglar.jpg)
+
+### Mail ayarları
+
+![CeHa Ticaret — Mail ayarları](yonetim/53-mail.jpg)
+
+### SMS ayarları
+
+![CeHa Ticaret — SMS ayarları](yonetim/54-sms.jpg)
+
+### SEO ayarları
+
+![CeHa Ticaret — SEO ayarları](yonetim/55-seo.jpg)
+
+### Analitik ve doğrulama
+
+![CeHa Ticaret — Analitik ve doğrulama](yonetim/56-analitik.jpg)
+
+### Google Ads dönüşüm
+
+Google Ads dönüşüm özelliği mevcut demo kataloğunda kapalıdır; görsel ayar ekranına aittir.
+
+![CeHa Ticaret — Google Ads dönüşüm](yonetim/57-google-ads.jpg)
+
+### Cloudflare CDN
+
+![CeHa Ticaret — Cloudflare CDN](yonetim/58-cloudflare.jpg)
+
+### Yönetici 2FA
+
+![CeHa Ticaret — Yönetici 2FA](yonetim/59-iki-adim.jpg)
+
+</details>
+
+<details>
+<summary><strong>Yalnızca demoya ait araçlar — 3 ekran</strong></summary>
+
+### Çarkıfelek
+
+Çarkıfelek yalnızca demo ortamına aittir; satın alınan mağazada sunulmaz.
+
+![CeHa Ticaret — Çarkıfelek](vitrin/19-cark.jpg)
+
+### Satış turu
+
+![CeHa Ticaret — Satış turu](vitrin/20-satis-turu.jpg)
+
+### Operasyon turu
+
+![CeHa Ticaret — Operasyon turu](vitrin/21-operasyon-turu.jpg)
+
+</details>
+
+<details>
+<summary><strong>Demo çarkıfelek yönetimi — 1 ekran</strong></summary>
+
+### Çarkıfelek
+
+Bu yönetim ekranı yalnızca demo çarkıfelek uygulamasına aittir.
+
+![CeHa Ticaret — Çarkıfelek](yonetim/19-cark.jpg)
+
+</details>
 
 <a id="paketler"></a>
 ## Paketler ve iletişim
